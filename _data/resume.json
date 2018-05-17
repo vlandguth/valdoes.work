@@ -1,95 +1,91 @@
 {
     "basics": {
-      "name": "Richard Hendriks",
-      "label": "Programmer",
+      "name": "Valerie Landguth",
+      "label": "UX/UI Designer",
       "picture": "",
-      "email": "richard.hendriks@gmail.com",
-      "phone": "(912) 555-4321",
-      "website": "https://richardhendricks.com",
+      "email": "valerie.landguth@gmail.com",
+      "phone": "206.406.7526",
+      "website": "https://valerielandguth.myportfolio.como",
       "summary": "Richard hails from Tulsa. He has earned degrees from the University of Oklahoma and Stanford. (Go Sooners and Cardinal!) Before starting Pied Piper, he worked for Hooli as a part time software developer. While his work focuses on applied information theory, mostly optimizing lossless compression schema of both the length-limited and adaptive variants, his non-work interests range widely, everything from quantum computing to chaos theory. He could tell you about it, but THAT would NOT be a “length-limited” conversation!",
       "location": {
-        "address": "2712 Broadway St",
-        "postalCode": "CA 94115",
-        "city": "San Francisco",
+        "address": "22932 57th Ave SE ",
+        "postalCode": "98072",
+        "city": "Woodinville",
         "countryCode": "US",
-        "region": "California"
+        "region": "Washington"
       },
       "profiles": [
         {
-          "network": "Twitter",
-          "username": "neutralthoughts",
-          "url": ""
+          "network": "LinkedIn",
+          "username": "valerie-landguth",
+          "url": "https://www.linkedin.com/in/valerie-landguth/"
         },
         {
-          "network": "SoundCloud",
-          "username": "dandymusicnl",
-          "url": "https://soundcloud.com/dandymusicnl"
+          "network": "Behance",
+          "username": "valerielandguth",
+          "url": "https://www.behance.net/valerie-landguth"
         }
       ]
     },
     "work": [
       {
-        "company": "Pied Piper",
-        "position": "CEO/President",
-        "website": "https://piedpiper.com",
-        "startDate": "2013-12-01",
-        "endDate": "2014-12-01",
-        "summary": "Pied Piper is a multi-platform technology based on a proprietary universal compression algorithm that has consistently fielded high Weisman Scores™ that are not merely competitive, but approach the theoretical limit of lossless compression.",
-        "highlights": [
-          "Build an algorithm for artist to detect if their music was violating copy right infringement laws",
-          "Successfully won Techcrunch Disrupt",
-          "Optimized an algorithm that holds the current world record for Weisman Scores"
-        ]
+        "company": "Eastern Washington University",
+        "position": "Web and UX Teaching Assistant",
+        "website": "ewu.edu",
+        "startDate": "January 2018",
+        "endDate": "March 2018",
+        "summary": "Web Design and User Experience Design Teaching Assistant and Tutor. I answered questions in class and helped students find and solve problems in their HTML and CSS. I met with students outside of class who need extra help with assignments or projects, or gave feedback on students UI/UX design. I also helped write assessments and created a frequently asked questions page for students to refer to in future classes.",
+        "highlights": []
       }
     ],
     "volunteer": [
       {
-        "organization": "CoderDojo",
-        "position": "Teacher",
-        "website": "https://coderdojo.com/",
-        "startDate": "2012-01-01",
-        "endDate": "2013-01-01",
-        "summary": "Global movement of free coding clubs for young people.",
-        "highlights": [
-          "Awarded 'Teacher of the Month'"
-        ]
+        "organization": "INRIX Inc",
+        "position": "UX Design Intern",
+        "website": "inrix.com/products/inrix-opencar/",
+        "startDate": "July 2017",
+        "endDate": "September 2017",
+        "summary": "I designed a Weather.com experience for connected-car software, OpenCar (inrix.com/products/inrix-opencar/) from start to finish. This included creating an information architecture, wireframes, visuals, presenting to stakeholders, and iterating. I also created a style guide for the design team to use and conducted usability testing on OpenCar apps and presented my results with solutions.",
+        "highlights": []
       }
     ],
     "education": [
       {
-        "institution": "University of Oklahoma",
-        "area": "Information Technology",
+        "institution": "Eastern Washington Univeristy",
+        "area": "Visual Design Communication",
         "studyType": "Bachelor",
-        "startDate": "2011-06-01",
-        "endDate": "2014-01-01",
-        "gpa": "4.0",
+        "startDate": "September 2016",
+        "endDate": "December 2018",
+        "gpa": "3.9",
         "courses": [
-          "DB1101 - Basic SQL",
-          "CS2011 - Java Introduction"
+          "User Experience Design 1-3",
+          "Web Design 1-3",
+          "Motion Design"
         ]
+      },
+      {
+        "institution": "Edmonds Community College",
+        "area": "General Studies",
+        "studyType": "Associates",
+        "startDate": "September 2014",
+        "endDate": "June 2016",
+        "gpa": "3.6",
+        "courses": []
       }
     ],
     "awards": [
       {
-        "title": "Digital Compression Pioneer Award",
-        "date": "2014-11-01",
-        "awarder": "Techcrunch",
-        "summary": "There is no spoon."
+        "title": "Dean's List",
+        "date": "2017-2018",
+        "awarder": "Eastern Washington University",
+        "summary": ""
       }
     ],
-    "publications": [
-      {
-        "name": "Video compression for 3d media",
-        "publisher": "Hooli",
-        "releaseDate": "2014-10-01",
-        "website": "https://en.wikipedia.org/wiki/Silicon_Valley_(TV_series)",
-        "summary": "Innovative middle-out compression algorithm that changes the way we store data."
-      }
-    ],
+    "publications": [],
     "skills": [
       {
         "name": "Web Development",
-        "level": "Master",
+        "level": "Advanced",
         "keywords": [
           "HTML",
           "CSS",
@@ -97,34 +93,31 @@
         ]
       },
       {
-        "name": "Compression",
-        "level": "Master",
+        "name": "Adobe Creative Suite",
+        "level": "Advanced",
         "keywords": [
-          "Mpeg",
-          "MP4",
-          "GIF"
+          "Illustrator",
+          "Photoshop",
+          "Lightroom",
+          "InDesign",
+          "After Effects"
         ]
       }
     ],
-    "languages": [
-      {
-        "language": "English",
-        "fluency": "Native speaker"
-      }
-    ],
+    "languages": [],
     "interests": [
       {
-        "name": "Wildlife",
+        "name": "",
         "keywords": [
-          "Ferrets",
-          "Unicorns"
+          "Photography",
+          "Guitar"
         ]
       }
     ],
     "references": [
       {
-        "name": "Erlich Bachman",
-        "reference": "It is my pleasure to recommend Richard, his performance working as a consultant for Main St. Company proved that he will be a valuable addition to any company."
+        "name": "John Hurr",
+        "reference": "I had the opportunity to hire Valerie for a UX internship during the summer of 2017. She successfully shipped products to customers, conducted research projects, and built style guides for our team. She is a natural designer with a lot of deliberation and thoughtful decisions in her design work. Her flexibility and energy helped her tackle all types of challenges with different stakeholders during all stages of the design process. I would recommend Valerie for any UX position. Given the opportunity I would hire her again!"
       }
     ]
   }
