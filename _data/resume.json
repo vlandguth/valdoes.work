@@ -36,11 +36,9 @@
       "endDate": "March 2018",
       "summary": "Web Design and User Experience Design Teaching Assistant and Tutor. I answered questions in class and helped students find and solve problems in their HTML and CSS. I met with students outside of class who need extra help with assignments or projects, or gave feedback on students UI/UX design. I also helped write assessments and created a frequently asked questions page for students to refer to in future classes.",
       "highlights": []
-    }
-  ],
-  "volunteer": [
+    },
     {
-      "organization": "INRIX Inc",
+      "company": "INRIX Inc",
       "position": "UX Design Intern",
       "website": "inrix.com/products/inrix-opencar/",
       "startDate": "July 2017",
@@ -49,6 +47,7 @@
       "highlights": []
     }
   ],
+  "volunteer": [],
   "education": [
     {
       "institution": "Eastern Washington Univeristy",
