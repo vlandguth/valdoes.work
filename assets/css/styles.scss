@@ -1,0 +1,209 @@
+body {
+    font-family: europa, sans-serif;
+    background-color: #4A4A4A;
+  }
+  
+  /* Header */
+  .sticky-header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 130px;
+    background-color: #333;
+    padding: 10px;
+    z-index: 1000;
+  }
+  
+  .sticky-header img {
+    width: 110px;
+    margin: 10px auto;
+    padding:0 10px;
+  }
+  
+  .fixed {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 70px;
+    width: 100vw;
+    padding: 10px;
+  }
+  
+  .fixed img {
+    width: 50px;
+  }
+  
+  .sticky-header nav ul {
+    display: flex;
+    list-style-type: none;
+    align-items: center;
+  }
+  
+  .sticky-header nav ul li a {
+    text-decoration: none;
+    padding: 20px;
+    border-radius: 15%;
+    color: whitesmoke;
+    transition: all .3s ease-in-out;
+  }
+  
+  .sticky-header nav ul li a:hover {
+    background: #A992E5;
+  }
+  
+  header a, main a {
+    text-decoration: none;
+  }
+  
+  ul, header{
+    -webkit-padding-start: 0px;
+  }
+  
+  /* Footer */
+  footer {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+  }
+  
+  footer nav a img {
+    max-width: 30px;
+    max-height: 30px;
+    margin: 30px 15px;
+  }
+  
+  /* welcome bar */
+  
+  .welcome{
+    width:100vw;
+    height:300px;
+    background:#A992E5;
+  }
+  
+  .welcome h1{
+    margin: 0;
+    font-size: 2.5em;
+    text-align:center;
+    padding-top:130px;
+    color:black;
+    text-transform:none;
+  }
+  
+  /* work.css */
+  
+  h1{
+    margin: 50px 0 30px;
+    font-size: 3.5em;
+    font-family: 'Montserrat', sans-serif;
+    color:whitesmoke;
+    text-align:center;
+    font-weight:300;
+  }
+  
+  .grow{
+    overflow:hidden;
+    max-width:400px;
+    max-height:300px;
+  }
+  
+  .card img{
+    height:300px;
+    transition: all .65s ease-in-out;
+  }
+  
+  .card img:hover{
+    transform: scale(1.08);
+  }
+  
+  .work{
+    margin:0 auto;
+    max-width:1200px;
+    display:flex;
+    justify-content:center;
+    flex-wrap:wrap;
+  }
+  
+  .card{
+    margin:10px 20px;
+    background: rgb(51, 51, 51);
+    width:400px;
+    height:350px;
+  }
+  
+  .card h4{
+    font-family: 'Montserrat', sans-serif;
+    font-weight:250;
+    letter-spacing:1px;
+    color:white;
+    text-align:center;
+    margin-top:15px;
+  }
+  
+  .work a{
+    height: 390px;
+  }
+  
+  /* Resume */
+  
+  .resume p a{
+    color:#A992E5;
+  }
+  
+  .resume h1, h2{
+    font-family: europa-bold, sans-serif;
+    color:#A992E5;
+    text-transform:uppercase;
+  }
+  
+  .resume, .skills, .list-item{
+    display:flex;
+    flex-direction:row;
+  }
+  
+  .contact, .findme{
+    list-style-type:none;
+    margin-left:-20px;
+  }
+  
+  .profile{
+    width:150px;
+    border-radius:50%;
+  }
+  
+  .resume .left{
+    background: white;
+    width:35%;
+    padding:10px 25px;
+  }
+  
+  .resume .right{
+    color: whitesmoke;
+    background: #333;
+    width:65%;
+    padding:30px 25px;
+  }
+  
+  .list-item div{
+    padding:0 10px;
+  }
+  
+  div.descrip{
+    width:70%;
+  }
+  
+  div.side-bar{
+    width:30%;
+  }
+  
+  .side-bar h4:nth-child(2), .descrip p {
+    color:#ABABAB;
+  }
+  
+  @media only screen and (max-width: 600px) {
+    .resume{
+      flex-direction:column;
+    }
+    .left, .right{
+      width:90%;
+    }
+  }
