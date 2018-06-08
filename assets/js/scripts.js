@@ -15,3 +15,9 @@ $(window).scroll(function(){
           content : randomElement
       });
   }, 4000);
+
+  $(".arrow").click(function() {
+    $('html, body').animate({
+        scrollTop: $(".arrow").offset().top
+    }, 1200);
+});
