@@ -1,6 +1,6 @@
 ---
 title: Resume
-date: 2018-06-09 19:57:00 Z
+date: 2018-06-08 19:57:00 Z
 permalink: /resume/
 layout: default
 ---
