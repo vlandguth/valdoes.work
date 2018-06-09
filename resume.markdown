@@ -4,6 +4,7 @@ date: 2018-06-07 18:29:00 Z
 position: 1
 layout: default
 ---
+
 <main class="resume">
   <div class="left">
     <img class="profile" src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/1183167/ValerieLinkedIn-min%20(1-square).jpg" alt="Val">
