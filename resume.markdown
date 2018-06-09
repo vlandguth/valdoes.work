@@ -8,16 +8,16 @@ layout: default
   <div class="left">
     <img class="profile" src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/1183167/ValerieLinkedIn-min%20(1-square).jpg" alt="Val">
     # Valerie Landguth
-    <p class="bio">{{ site.date.basics.summary }}</p>
+    <p class="bio">{{ data.basics.summary }}</p>
     <ul class="contact">
-    {% for basics in site.data.resume %}
+    {% for basics in data.resume %}
       <li>{{ basics.phone }}</li>
       <li>{{ basics.email }}</li>
       <li>{{ basics.address }}</li>
     {{% endfor %}}
     </ul>
     <ul class="findme">
-    {% for profiles in site.data.resume %}
+    {% for profiles in data.resume %}
     <li><a href="{{ profiles.url }}"></a>{{ profiles.network }} : {{ profiles.username }}</li>
     {% endfor %}
     </ul>
@@ -30,7 +30,7 @@ layout: default
   <h2>Experience</h2>
        <article class="list-item">
       <div class="side-bar">
-      {% for work in site.data.resume %}
+      {% for work in data.resume %}
         <h4>{{ work.company }}</h4>
         <h4>{{ work.startDate }} - {{ work.endDate }}</h4>
       </div>
