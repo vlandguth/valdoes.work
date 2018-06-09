@@ -1,0 +1,16 @@
+{% include head.html %}
+{% include header.html %}
+
+# {{ site.title }}
+<main>
+    <div class="left">
+<img src="{{ profile.image }}" alt="">
+    </div>
+
+    <div class="right">
+        {{content}}
+    </div>
+</main>
+
+{% include footer.html %}
+{% include scripts.html %}

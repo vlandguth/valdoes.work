@@ -6,6 +6,7 @@ layout: default
 ---
 
 <div class="resume">
+
   <div class="left">
     <img class="profile" src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/1183167/ValerieLinkedIn-min%20(1-square).jpg" alt="{{ site.data.basics.name }}">
     # {{ site.data.basics.name }}
@@ -31,10 +32,14 @@ layout: default
   <h2>Experience</h2>
     <article class="list-item">
       {% for page in site.data.resume.work %}
+      
       <div class="side-bar">
+
         #### {{ work.company }}
         #### {{ work.startDate }} - {{ work.endDate }}
+        
       </div>
+
       {% endfor %}
     </article>
   </div>
