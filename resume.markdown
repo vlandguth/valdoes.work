@@ -29,9 +29,9 @@ layout: default
   <div class="right">
   
   <h2>Experience</h2>
-       <article class="list-item">
-      <div class="side-bar">
+    <article class="list-item">
       {% for page in site.data.resume.work %}
+      <div class="side-bar">
         <h4>{{ work.company }}</h4>
         <h4>{{ work.startDate }} - {{ work.endDate }}</h4>
       </div>
