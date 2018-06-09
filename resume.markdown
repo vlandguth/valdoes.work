@@ -10,14 +10,14 @@ layout: default
     # Valerie Landguth
     <p class="bio">{{ data.basics.summary }}</p>
     <ul class="contact">
-    {% for basics in data.resume %}
+    {% for page in data.resume.basics %}
       <li>{{ basics.phone }}</li>
       <li>{{ basics.email }}</li>
       <li>{{ basics.address }}</li>
     {{% endfor %}}
     </ul>
     <ul class="findme">
-    {% for profiles in data.resume %}
+    {% for page in data.resume.profiles %}
     <li><a href="{{ profiles.url }}"></a>{{ profiles.network }} : {{ profiles.username }}</li>
     {% endfor %}
     </ul>
@@ -30,7 +30,7 @@ layout: default
   <h2>Experience</h2>
        <article class="list-item">
       <div class="side-bar">
-      {% for work in data.resume %}
+      {% for page in data.resume.work %}
         <h4>{{ work.company }}</h4>
         <h4>{{ work.startDate }} - {{ work.endDate }}</h4>
       </div>
