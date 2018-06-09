@@ -35,10 +35,6 @@ layout: default
         <h4>{{ work.company }}</h4>
         <h4>{{ work.startDate }} - {{ work.endDate }}</h4>
       </div>
-      <div class="descrip">
-        <h4>{{ work.position }}</h4>
-        <p>{{ work.summary }}</p>
-      </div>
       {% endfor %}
     </article>
   </div>
