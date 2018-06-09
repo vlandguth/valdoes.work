@@ -216,10 +216,6 @@ body {
     align-items:center;
   }
 
-  .about img{
-    width:200px;
-  }
-
   .about h1, .about h2, .about p, .bio li{
     color:whitesmoke;
     font-family: 'Montserrat', sans-serif;;
