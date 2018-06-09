@@ -207,3 +207,31 @@ body {
       width:90%;
     }
   }
+
+  .about{
+    max-width:750px;
+    display:flex;
+    margin: 0px auto;
+    padding: 25px 20px;
+    align-items:center;
+  }
+  
+  .about img{
+    margin:5px;
+    max-height:250px;
+  }
+  
+  
+  .about h1, .about h2, .about p, .bio li{
+    color:whitesmoke;
+    font-family: 'Montserrat', sans-serif;;
+    font-weight:300;
+  }
+  
+  .bio ul{
+    list-style-type:none;
+  }
+  
+  .bio{
+    margin-left:20px;
+  }
