@@ -36,7 +36,7 @@ layout: default
       </div>
       <div class="descrip">
         <h4>{{ work.position }}</h4>
-        <p>{{ work.summary }</p>
+        <p>{{ work.summary }}</p>
       </div>
       {% endfor %}
     </article>
