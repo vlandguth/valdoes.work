@@ -7,20 +7,22 @@ layout: default
 
   <div class="left">
     <img class="profile" src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/1183167/ValerieLinkedIn-min%20(1-square).jpg" alt="Val">
-    <h1>Valerie Landguth</h1>
-    <p class="bio">I am hard-working, flexible, and a fast learner who is enthusiastic about making beautiful and easy to use products. I am a senior at Eastern Washington University and I am dedicated to applying what I have learned, to creating great experiences for users.</p>
+    # Valerie Landguth
+    <p class="bio">{{ site.date.basics.summary }}</p>
     <ul class="contact">
-      <li>###.###.####</li>
-      <li>my@email.com</li>
-      <li>xxxxx xxth st</li>
+    {% for basics in site.data.resume %}
+      <li>{{ basics.phone }}</li>
+      <li>{{ basics.email }}</li>
+      <li>{{ basics.address }}</li>
+    {{% endfor %}}
     </ul>
     <ul class="findme">
-      <li>Dribbble</li>
-      <li>Behance</li>
-      <li>Twitter</li>
+    {% for profiles in site.data.resume %}
+    <li><a href="{{ profiles.url }}"></a>{{ profiles.network }} : {{ profiles.username }}</li>
+    {% endfor %}
     </ul>
-    <h3>References</h3>
-    <p>Available Upon Request</p>
+    ### References
+    Available Upon Request
   </div>
 
   <div class="right">
@@ -29,12 +31,12 @@ layout: default
        <article class="list-item">
       <div class="side-bar">
       {% for work in site.data.resume %}
-        <h4>{{work.company}}</h4>
-        <h4>{{work.startDate}} - {{work.endDate}}</h4>
+        <h4>{{ work.company }}</h4>
+        <h4>{{ work.startDate }} - {{ work.endDate }}</h4>
       </div>
       <div class="descrip">
-        <h4>{{work.position}}</h4>
-        <p>{{work.summary}}</p>
+        <h4>{{ work.position }}</h4>
+        <p>{{ work.summary }</p>
       </div>
       {% endfor %}
     </article>
