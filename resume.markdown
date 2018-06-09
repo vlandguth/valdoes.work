@@ -8,7 +8,7 @@ layout: default
 <div class="resume">
   <div class="left">
     <img class="profile" src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/1183167/ValerieLinkedIn-min%20(1-square).jpg" alt="{{ site.data.basics.name }}">
-    <h1>{{ site.data.basics.name }}</h1>
+    # {{ site.data.basics.name }}
     <p class="bio">{{ site.data.basics.summary }}</p>
     <ul class="contact">
     {% for page in site.data.resume.basics %}
@@ -32,8 +32,8 @@ layout: default
     <article class="list-item">
       {% for page in site.data.resume.work %}
       <div class="side-bar">
-        <h4>{{ work.company }}</h4>
-        <h4>{{ work.startDate }} - {{ work.endDate }}</h4>
+        #### {{ work.company }}
+        #### {{ work.startDate }} - {{ work.endDate }}
       </div>
       {% endfor %}
     </article>
