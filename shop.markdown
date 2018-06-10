@@ -1,7 +1,7 @@
 ---
 title: Shop
 date: 2018-06-07 18:32:00 Z
-position: 0
+position: 2
 layout: default
 ---
 
