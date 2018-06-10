@@ -1,8 +1,10 @@
 ---
-title: About Me
+title: About
 date: 2018-06-07 18:28:00 Z
 position: 0
 profile-image: "/uploads/ValerieLinkedIn-min.jpg"
+gallery-image:
+- 
 layout: about
 ---
 
