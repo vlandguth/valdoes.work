@@ -208,18 +208,27 @@ body {
     }
   }
 
+  .gallery{
+    display:flex;
+    justify-content:center;
+  }
+
   .about{
-    max-width:750px;
+    max-width:850px;
     display:flex;
     margin: 0px auto;
     padding: 25px 20px;
     align-items:center;
   }
-  
+
   .about h1, .about h2, .about p, .bio li{
     color:whitesmoke;
     font-family: 'Montserrat', sans-serif;;
     font-weight:300;
+  }
+
+  .about .left img{
+    max-width:80%;
   }
   
   .bio ul{
