@@ -28,4 +28,9 @@ defaults:
     type: portfolio
   values:
     layout: work
+- scope:
+    path: ''
+    type: resume
+  values:
+    layout: entry
 permalink: pretty
