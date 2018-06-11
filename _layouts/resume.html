@@ -1,13 +1,53 @@
 {% include head.html %}
 {% include header.html %}
 
+<h1>{{ page.title }}</h1>
 <main>
     <div class="left">
-
+        <img class="profile" src="" alt="">
+        <h1>{{ data.resume.basics.name }}</h1>
+        <p class="bio">{{ data.resume.basics.summary }}</p>
+        <ul class="contact">
+            {% for page in data.resume.profile %}
+            <li><a href="{{ profile.url }}">{{ profile.network }} : {{ profile.username }}</a></li>
+            {% endfor %}
+        </ul>
+        <h3>References</h3>
+        <p>Available Upon Request</p>
     </div>
 
     <div class="right">
-        {{content}}
+        <h2>Experience</h2>
+        {% for page in data.resume.work %}
+        <article>
+            <div class="list-item">
+                <div class="side-bar">
+                    <h4>{{ work.company }}</h4>
+                    <h4>{{ work.startDate }} - {{ work.endDate }}</h4>
+                </div>
+                <div class="descrip">
+                    <h4>{{ work.position }}</h4>
+                    <p>{{ work.summary }}</p>
+                </div>
+            </div>
+        </article>
+        {% endfor %}
+
+        <h2>Education</h2>
+        {% for page in data.resume.education %}
+        <article>
+            <div class="list-item">
+                <div class="side-bar">
+                    <h4>{{ education.company }}</h4>
+                    <h4>{{ education.startDate }} - {{ education.endDate }}</h4>
+                </div>
+                <div class="descrip">
+                    <h4>{{ education.position }}</h4>
+                    <p>{{ education.summary }}</p>
+                </div>
+            </div>
+        </article>
+        {% endfor %}
     </div>
 </main>
 
