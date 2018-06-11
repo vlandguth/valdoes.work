@@ -8,7 +8,7 @@
         <h1>{{ data.resume.basics.name }}</h1>
         <p class="bio">{{ data.resume.basics.summary }}</p>
         <ul class="contact">
-            {% for page in data.resume.profile %}
+            {% for entry in data.resume.profile %}
             <li><a href="{{ profile.url }}">{{ profile.network }} : {{ profile.username }}</a></li>
             {% endfor %}
         </ul>
@@ -18,7 +18,7 @@
 
     <div class="right">
         <h2>Experience</h2>
-        {% for page in data.resume.work %}
+        {% for entry in data.resume.work %}
         <article>
             <div class="list-item">
                 <div class="side-bar">
@@ -34,7 +34,7 @@
         {% endfor %}
 
         <h2>Education</h2>
-        {% for page in data.resume.education %}
+        {% for entry in data.resume.education %}
         <article>
             <div class="list-item">
                 <div class="side-bar">
