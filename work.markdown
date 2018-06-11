@@ -2,6 +2,6 @@
 title: Work
 date: 2018-06-07 23:39:00 Z
 position: 1
-layout: default
+layout: work
 ---
 
