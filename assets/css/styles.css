@@ -1,5 +1,5 @@
 body {
-    font-family: europa, sans-serif;
+    font-family: europa, 'Montserrat', sans-serif;
     background-color: #4A4A4A;
   }
   
@@ -75,18 +75,34 @@ body {
   /* welcome bar */
   
   .welcome{
+    overflow:hidden;
+    position:relative;
     width:100vw;
-    height:300px;
-    background:#A992E5;
+    height:70vh;
+    background:#7462A0;
   }
   
   .welcome h1{
     margin: 0;
     font-size: 2.5em;
     text-align:center;
-    padding-top:130px;
-    color:black;
+    padding-top:180px;
+    color:#fff;
     text-transform:none;
+  }
+  
+  .arrow{
+    display:block;
+    margin:0 auto;
+    padding-top:90px;
+    width:50px;
+  }
+  
+  #particles-js{
+    width:100%;
+    position:absolute;
+    top:0;
+    right:0;
   }
   
   /* work.css */
@@ -94,7 +110,7 @@ body {
   h1{
     margin: 50px 0 30px;
     font-size: 3.5em;
-    font-family: 'Montserrat', sans-serif;
+    font-family: europa, 'Montserrat', sans-serif;
     color:whitesmoke;
     text-align:center;
     font-weight:300;
@@ -131,7 +147,7 @@ body {
   }
   
   .card h4{
-    font-family: 'Montserrat', sans-serif;
+    font-family: europa, 'Montserrat', sans-serif;
     font-weight:250;
     letter-spacing:1px;
     color:white;
@@ -150,7 +166,7 @@ body {
   }
   
   .resume h1, h2{
-    font-family: europa-bold, sans-serif;
+    font-family: europa-bold, 'Montserrat', sans-serif;
     color:#A992E5;
     text-transform:uppercase;
   }
@@ -204,13 +220,15 @@ body {
       flex-direction:column;
     }
     .left, .right{
-      width:90%;
+      width:100%;
     }
   }
 
-  .gallery{
+  .posts{
+    margin:0 auto;
     display:flex;
     justify-content:center;
+    flex-wrap:wrap;
   }
 
   .about{
