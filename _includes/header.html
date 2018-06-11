@@ -1,6 +1,10 @@
 <header class='sticky-header'>
     <nav><ul>
-      {% for page in site.pages %}
+      {% for page in site.pages limit:1 %}
+      <li><a href="{{ page.url }}">{{ page.title }}</a></li>
+      {% endfor %}
+      <img src="{{ page.about.logo-image }}" alt="Logo">
+      {% for page in site.pages offset:2 %}
       <li><a href="{{ page.url }}">{{ page.title }}</a></li>
       {% endfor %}
       </ul></nav>
