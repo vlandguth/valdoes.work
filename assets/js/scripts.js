@@ -7,7 +7,7 @@ $(window).scroll(function(){
      }
   });
   
-  var words = ['UX Designer', 'Web Designer', 'Graduate! (soon)', 'Front-End Developer', 'UI Designer', 'Bulma Hater' ];
+  var words = ['UX Designer', 'Web Designer', 'Graduate! (soon)', 'Front-End Developer', 'UI Designer', ];
   setInterval(function(){
   var randomIndex = Math.floor(Math.random() * words.length); 
   var randomElement = words[randomIndex];
