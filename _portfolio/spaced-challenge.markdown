@@ -5,6 +5,13 @@ cover-image: "/uploads/SPACEDblue_mockup-min.png"
 screens-image:
 - "/uploads/iPhone%208%20Plus.png"
 - "/uploads/Home%20Page_min.png"
+concepts:
+- UI Design
+- User Personas
+status: Concept
+future-features:
+- Pricing Page
+- Development
 layout: default
 ---
 
