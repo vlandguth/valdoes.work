@@ -263,3 +263,98 @@ body {
       justify-content:center;
     }
   }
+
+  .hero{
+    overflow:hidden;
+    position:relative;
+    width:100vw;
+    height:70vh;
+    background:#7462A0;
+    background: url('http://via.placeholder.com/800x400');
+    background-size:cover;
+  }
+  
+  .hero h1{
+    margin: 0;
+    font-size: 2.5em;
+    text-align:center;
+    padding-top:150px;
+    color:#fff;
+    text-transform:none;
+  }
+  
+  .hero p{
+    font-size: 1.1em;
+    margin:0 auto;
+    color:white;
+    text-align:center;
+    padding:20px 20px 100px;;
+    max-width:550px;
+  }
+  
+  .arrow{
+    display:block;
+    margin:0 auto;
+    padding-top:90px;
+    width:50px;
+  }
+  
+  #particles-js{
+    width:100%;
+    position:absolute;
+    top:0;
+    right:0;
+  }
+  
+  .project{
+    padding:0 10px;
+  }
+  .project h4{
+    text-transform:uppercase;
+    padding:10px 0;
+    font-size: 1.15em;
+  }
+  .project h3{
+    font-size: 2em;
+    padding:10px 0;
+  }
+  
+  .project .info{
+    max-width:1200px;
+    color:white;
+    display: flex;
+    justify-content:center;
+    align-items:baseline;
+    margin:0 auto;
+  }
+  
+  .info div{
+    width:180px;
+    padding:20px;
+  }
+  
+  .info .descrip{
+    width:500px;
+  }
+  
+  .carousel-nav-left svg, .carousel-nav-right svg {
+    width:15px;
+    margin:0 20px;
+  }
+  
+  .carousel-item figcaption{
+    color:white;
+    text-align:center;
+    padding:10px;
+  }
+  
+  
+  @media only screen and (max-width: 500px) {
+      .info {
+          flex-direction:column;
+      }
+    .carousel-item figure{
+      margin:0 auto;
+      max-width:80%;
+  }
+  }
