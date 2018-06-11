@@ -6,9 +6,9 @@
     <div class="left">
         <img class="profile" src="" alt="">
         <h1>{{ data.resume.basics.name }}</h1>
-        <p class="bio">{{ data.resume.basics.summary }}</p>
+        <p class="bio">{{ site.data.resume.basics.summary }}</p>
         <ul class="contact">
-            {% for entry in data.resume.profile %}
+            {% for entry in site.data.resume.profile %}
             <li><a href="{{ profile.url }}">{{ profile.network }} : {{ profile.username }}</a></li>
             {% endfor %}
         </ul>
@@ -18,7 +18,7 @@
 
     <div class="right">
         <h2>Experience</h2>
-        {% for entry in data.resume.work %}
+        {% for entry in site.data.resume.work %}
         <article>
             <div class="list-item">
                 <div class="side-bar">
@@ -34,7 +34,7 @@
         {% endfor %}
 
         <h2>Education</h2>
-        {% for entry in data.resume.education %}
+        {% for entry in site.data.resume.education %}
         <article>
             <div class="list-item">
                 <div class="side-bar">
