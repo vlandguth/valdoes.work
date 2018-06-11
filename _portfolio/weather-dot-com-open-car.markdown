@@ -6,7 +6,7 @@ screens-image:
 - "/uploads/Weather.png"
 - "/uploads/Hourly.png"
 - "/uploads/Tab%20Simple%20List%20View.png"
-layout: default
+layout: project
 ---
 
 # Example Header

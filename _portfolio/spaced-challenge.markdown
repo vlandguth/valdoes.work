@@ -12,6 +12,6 @@ status: Concept
 future-features:
 - Pricing Page
 - Development
-layout: default
+layout: project
 ---
 

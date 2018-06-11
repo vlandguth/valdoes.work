@@ -7,6 +7,6 @@ screens-image:
 - "/uploads/Lucky%20Numbers%20Copy.png"
 - "/uploads/Fortune%20Copy.png"
 - "/uploads/All%20Horoscopes%20Copy%204.png"
-layout: default
+layout: project
 ---
 
