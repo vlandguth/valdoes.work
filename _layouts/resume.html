@@ -4,11 +4,11 @@
 <h1>{{ page.title }}</h1>
 <main>
     <div class="left">
-        <img class="profile" src="" alt="">
-        <h1>{{ data.resume.basics.name }}</h1>
+        <img class="profile" src="{{ page.profile-image }}" alt="">
+        <h1>{{ site.data.resume.basics.name }}</h1>
         <p class="bio">{{ site.data.resume.basics.summary }}</p>
         <ul class="contact">
-            {% for resume in site.data.resume.profile %}
+            {% for resume in data.resume.profile %}
             <li><a href="{{ profile.url }}">{{ profile.network }} : {{ profile.username }}</a></li>
             {% endfor %}
         </ul>
@@ -18,7 +18,7 @@
 
     <div class="right">
         <h2>Experience</h2>
-        {% for resume in site.data.resume.work %}
+        {% for resume in data.resume.work %}
         <article>
             <div class="list-item">
                 <div class="side-bar">
@@ -34,7 +34,7 @@
         {% endfor %}
 
         <h2>Education</h2>
-        {% for resume in site.data.resume.education %}
+        {% for resume in data.resume.education %}
         <article>
             <div class="list-item">
                 <div class="side-bar">

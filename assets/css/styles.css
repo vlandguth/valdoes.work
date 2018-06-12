@@ -255,6 +255,14 @@ body {
   .about .left img{
     max-width:80%;
   }
+
+  .about .left{
+    width:35%;
+  }
+
+  .about .right{
+    width:65%;
+  }
   
   .bio ul{
     list-style-type:none;
