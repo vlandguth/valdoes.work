@@ -84,12 +84,15 @@ a{
   color:#A992E5;
 }
 
-h1, h2{
+.resume h1, h2{
   font-family: europa-bold, sans-serif;
   color:#A992E5;
   text-transform:uppercase;
 }
 
+.resume .left p{
+  color:#4a4a4a;
+}
 .resume, .skills, .list-item{
   display:flex;
   flex-direction:row;
@@ -100,33 +103,37 @@ h1, h2{
   margin-left:-20px;
 }
 
-.profile{
+.resume .left .profile{
   width:150px;
   border-radius:50%;
 }
 
-.left{
+.resume .left{
   background: white;
   width:35%;
-  padding:10px 25px;
+  padding:10px 50px;
 }
 
-.right{
+.resume .right{
   color: whitesmoke;
   background: #333;
   width:65%;
   padding:30px 25px;
 }
 
+.resume .right article{
+  margin:10px 0;
+}
+
 .list-item div{
   padding:0 10px;
 }
 
-div.descrip{
+.resume div.descrip{
   width:70%;
 }
 
-div.side-bar{
+.resume div.side-bar{
   width:30%;
 }
 
