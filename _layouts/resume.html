@@ -2,54 +2,74 @@
 {% include header.html %}
 
 <h1>{{ page.title }}</h1>
-<main>
-    <div class="left">
-        <img class="profile" src="{{ page.profile-image }}" alt="">
-        <h1>{{ site.data.resume.basics.name }}</h1>
-        <p class="bio">{{ site.data.resume.basics.summary }}</p>
-        <ul class="contact">
-            {% for resume in data.resume.profile %}
-            <li><a href="{{ profile.url }}">{{ profile.network }} : {{ profile.username }}</a></li>
-            {% endfor %}
-        </ul>
-        <h3>References</h3>
-        <p>Available Upon Request</p>
-    </div>
-
-    <div class="right">
-        <h2>Experience</h2>
-        {% for resume in data.resume.work %}
-        <article>
-            <div class="list-item">
-                <div class="side-bar">
-                    <h4>{{ work.company }}</h4>
-                    <h4>{{ work.startDate }} - {{ work.endDate }}</h4>
-                </div>
-                <div class="descrip">
-                    <h4>{{ work.position }}</h4>
-                    <p>{{ work.summary }}</p>
-                </div>
+<main class="resume">
+        <div class="left">
+          <img class="profile" src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/1183167/ValerieLinkedIn-min%20(1-square).jpg" alt="Val">
+          <h1>Valerie Landguth</h1>
+          <p class="bio">I am hard-working, flexible, and a fast learner who is enthusiastic about making beautiful and easy to use products. I am a senior at Eastern Washington University and I am dedicated to applying what I have learned, to creating great experiences for users.</p>
+          <ul class="contact">
+            <li>###.###.####</li>
+            <li>my@email.com</li>
+            <li>xxxxx xxth st</li>
+          </ul>
+          <ul class="findme">
+            <li>Dribble</li>
+            <li>Behance</li>
+            <li>Twitter</li>
+          </ul>
+          <h3>References</h3>
+          <p>Available Upon Request</p>
+        </div>
+        <div class="right">
+          <h2>Experience</h2>
+             <article class="list-item">
+            <div class="side-bar">
+              <h4>Eastern Washington University</h4>
+              <h4>January - March 2018</h4>
             </div>
-        </article>
-        {% endfor %}
-
-        <h2>Education</h2>
-        {% for resume in data.resume.education %}
-        <article>
-            <div class="list-item">
-                <div class="side-bar">
-                    <h4>{{ education.company }}</h4>
-                    <h4>{{ education.startDate }} - {{ education.endDate }}</h4>
-                </div>
-                <div class="descrip">
-                    <h4>{{ education.position }}</h4>
-                    <p>{{ education.summary }}</p>
-                </div>
+            <div class="descrip">
+              <h4>UX and Web Design Teaching Assistant</h4>
+              <p>Web Design and User Experience Design Teaching Assistant and Tutor. I answered questions in class and helped students find and solve problems in their HTML and CSS. I met with students outside of class who need extra help with assignments or projects, or gave feedback on students UI/UX design. I also helped write assessments and created a frequently asked questions page for students to refer to in future classes.</p>
             </div>
-        </article>
-        {% endfor %}
-    </div>
-</main>
+          </article>
+           <article class="list-item">
+            <div class="side-bar">
+              <h4>INRIX Inc</h4>
+              <h4>June - September 2017</h4>
+            </div>
+            <div class="descrip">
+              <h4>UX Design Intern</h4>
+              <p>I designed a Weather.com experience for connected-car software, <a href="http://inrix.com/products/inrix-opencar/">OpenCar</a> from start to finish. This included creating an information architecture, wireframes, visuals, presenting to stakeholders, and iterating. I also created a style guide for the design team to use and conducted usability testing on OpenCar apps and presented my results with solutions.</p>
+              
+            </div>
+          </article>
+          <h2>Education</h2>
+          <article class="list-item">
+            <div class="side-bar">
+              <h4>Eastern Washington University</h4>
+              <h4>2016 - 2018</h4>
+            </div>
+            <div class="descrip">
+              <h4>BA Visual Communication Design and UX Design Certificate</h4>
+              <p>Deans List - Fall 2017, Winter 2018</p>
+            </div>
+          </article>
+           <article class="list-item">
+            <div class="side-bar">
+              <h4>Edmonds Community College</h4>
+              <h4>2014 - 2016</h4>
+            </div>
+            <div class="descrip">
+              <h4>AA in General Studies</h4>
+              
+            </div>
+          </article>
+           <h2>Skills</h2>
+            <div class="skills">
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto sapiente aliquid vero sunt, necessitatibus quam atque, molestiae ex itaque dicta quibusdam, accusamus sit quas voluptatum ullam porro dolores tempore laboriosam!</p>
+            </div>
+        </div>
+      </main>
 
 {% include footer.html %}
 {% include scripts.html %}

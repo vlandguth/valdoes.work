@@ -78,7 +78,71 @@ body {
     max-height: 30px;
     margin: 30px 15px;
   }
-  
+
+  /* Main */
+a{
+  color:#A992E5;
+}
+
+h1, h2{
+  font-family: europa-bold, sans-serif;
+  color:#A992E5;
+  text-transform:uppercase;
+}
+
+.resume, .skills, .list-item{
+  display:flex;
+  flex-direction:row;
+}
+
+.contact, .findme{
+  list-style-type:none;
+  margin-left:-20px;
+}
+
+.profile{
+  width:150px;
+  border-radius:50%;
+}
+
+.left{
+  background: white;
+  width:35%;
+  padding:10px 25px;
+}
+
+.right{
+  color: whitesmoke;
+  background: #333;
+  width:65%;
+  padding:30px 25px;
+}
+
+.list-item div{
+  padding:0 10px;
+}
+
+div.descrip{
+  width:70%;
+}
+
+div.side-bar{
+  width:30%;
+}
+
+.side-bar h4:nth-child(2), .descrip p {
+  color:#ABABAB;
+}
+
+@media only screen and (max-width: 600px) {
+  .resume{
+    flex-direction:column;
+  }
+  .left, .right{
+    width:90%;
+  }
+}
+ 
   /* welcome bar */
   
   .welcome{
@@ -172,55 +236,7 @@ body {
     color:#A992E5;
   }
   
-  .resume h1, h2{
-    font-family: europa-bold, 'Montserrat', sans-serif;
-    color:#A992E5;
-    text-transform:uppercase;
-  }
   
-  .resume, .skills, .list-item{
-    display:flex;
-    flex-direction:row;
-  }
-  
-  .contact, .findme{
-    list-style-type:none;
-    margin-left:-20px;
-  }
-  
-  .profile{
-    width:150px;
-    border-radius:50%;
-  }
-  
-  .resume .left{
-    background: white;
-    width:35%;
-    padding:10px 25px;
-  }
-  
-  .resume .right{
-    color: whitesmoke;
-    background: #333;
-    width:65%;
-    padding:30px 25px;
-  }
-  
-  .list-item div{
-    padding:0 10px;
-  }
-  
-  div.descrip{
-    width:70%;
-  }
-  
-  div.side-bar{
-    width:30%;
-  }
-  
-  .side-bar h4:nth-child(2), .descrip p {
-    color:#ABABAB;
-  }
   
   @media only screen and (max-width: 600px) {
     .resume{
