@@ -5,57 +5,61 @@
     <h1>{{ page.title }}</h1>
       </div>
       
-      <main class="resume">
-            <div class="right">
-              <h2>Experience</h2>
-                 <article class="list-item">
-                <div class="side-bar">
-                  <h4>Eastern Washington University</h4>
-                  <h4>January - March 2018</h4>
-                </div>
-                <div class="descrip">
-                  <h4>UX and Web Design Teaching Assistant</h4>
-                  <p>Web Design and User Experience Design Teaching Assistant and Tutor. I answered questions in class and helped students find and solve problems in their HTML and CSS. I met with students outside of class who need extra help with assignments or projects, or gave feedback on students UI/UX design. I also helped write assessments and created a frequently asked questions page for students to refer to in future classes.</p>
-                </div>
-              </article>
-               <article class="list-item">
-                <div class="side-bar">
-                  <h4>INRIX Inc</h4>
-                  <h4>June - September 2017</h4>
-                </div>
-                <div class="descrip">
-                  <h4>UX Design Intern</h4>
-                  <p>I designed a Weather.com experience for connected-car software, <a href="http://inrix.com/products/inrix-opencar/">OpenCar</a> from start to finish. This included creating an information architecture, wireframes, visuals, presenting to stakeholders, and iterating. I also created a style guide for the design team to use and conducted usability testing on OpenCar apps and presented my results with solutions.</p>
-                  
-                </div>
-              </article>
-              <h2>Education</h2>
-              <article class="list-item">
-                <div class="side-bar">
-                  <h4>Eastern Washington University</h4>
-                  <h4>2016 - 2018</h4>
-                </div>
-                <div class="descrip">
-                  <h4>BA Visual Communication Design and UX Design Certificate</h4>
-                  <p>Deans List - Fall 2017, Winter 2018</p>
-                </div>
-              </article>
-               <article class="list-item">
-                <div class="side-bar">
-                  <h4>Edmonds Community College</h4>
-                  <h4>2014 - 2016</h4>
-                </div>
-                <div class="descrip">
-                  <h4>AA in General Studies</h4>
-                  
-                </div>
-              </article>
-               <h2>Skills</h2>
-                <div class="skills">
-                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto sapiente aliquid vero sunt, necessitatibus quam atque, molestiae ex itaque dicta quibusdam, accusamus sit quas voluptatum ullam porro dolores tempore laboriosam!</p>
-                </div>
+      <main class="project">
+        <div class="info">
+          <div class="descrip">
+            <h3>Overview</h3>
+            {{content}}
+          </div>
+
+          <div>
+                <h4>Concepts</h4>
+                <ul>
+                  {% for work in site.portfolio %}
+                  <li>{{ work.concepts }}</li>
+                  {% endfor %}
+                </ul>
+              </div>
+          
+              <div>
+                <h4>Status</h4>
+                <p>{{ work.status }}</p>
+              </div>
+          
+              <div>
+                <h4>Future Features</h4>
+                <ul>
+                    {% for work in site.portfolio %}
+                    <li>{{ work.future-features }}</li>
+                    {% endfor %}
+                </ul>
+              </div>
             </div>
-          </main>
+
+            <div class='carousel is-3 carousel-animated carousel-animate-slide'>
+                    <div class='carousel-container'>
+                    {% for work in site.portfolio %}
+                      <div class='carousel-item'>
+                        <figure class="image"><img src="{{ work.screens-image }}"></figure>
+                        <figcaption>
+                          <p>{{ work.screens-descrip }}</p>
+                        </figcaption>
+                      </div>
+                    {% endfor %}
+                    </div>
+                    <div class="carousel-navigation is-centered">
+                      <div class="carousel-nav-left">
+                        <svg viewBox="0 0 50 76">
+                    <path fill="#FFF" fill-rule="evenodd" d="M.7441355 38.1333512L-3e-7 37.476042 42.42640656 9e-7l6.36396103 5.6214062L12.6212923 37.5702298 49.427874 70.08217384 43.06391297 75.70358.6375061 38.227539z"/>
+                  </svg>
+                      </div>
+                      <div class="carousel-nav-right">
+                        <svg viewBox="0 0 50 76">
+                    <path fill="#FFF" fill-rule="evenodd" d="M48.6837385 37.5702288l.7441358.6573092L7.00146744 75.7035791.63750641 70.0821729 36.8065817 38.1333502 0 5.62140616 6.36396103 0 48.7903679 37.476041z"/>
+                  </svg>
+                      </div>
+                    </div>
+                  </div>
 
 {% include footer.html %}
 {% include scripts.html %}
