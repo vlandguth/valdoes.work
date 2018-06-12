@@ -1,6 +1,13 @@
 body {
     font-family: europa, 'Montserrat', sans-serif;
     background-color: #4A4A4A;
+  }
+
+  main{
+    max-width:1000px;
+  }
+
+  main p{
     color:white;
   }
   
