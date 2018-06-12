@@ -126,7 +126,7 @@ a{
 }
 
 .list-item div{
-  padding:0 10px;
+  padding:15px;
 }
 
 .resume div.descrip{
@@ -242,16 +242,43 @@ a{
   p a{
     color:#A992E5;
   }
+
+  .resume, .skills, .list-item{
+    display:flex;
+    justify-content:center;
+  }
   
+  .contact, .findme{
+    list-style-type:none;
+    margin-left:-20px;
+  }
   
+  .profile{
+    width:150px;
+    border-radius:50%;
+  }
   
-  @media only screen and (max-width: 600px) {
-    .resume{
-      flex-direction:column;
-    }
-    .left, .right{
-      width:100%;
-    }
+  .right{
+    color: whitesmoke;
+    background: #333;
+    width:65%;
+    padding:30px 25px;
+  }
+  
+  .list-item div{
+    padding:0 10px;
+  }
+  
+  div.descrip{
+    width:70%;
+  }
+  
+  div.side-bar{
+    width:30%;
+  }
+  
+  .side-bar h4:nth-child(2), .descrip p {
+    color:#ABABAB;
   }
 
   .posts{
@@ -347,6 +374,7 @@ a{
   .project{
     padding:0 10px;
   }
+
   .project h4{
     text-transform:uppercase;
     padding:10px 0;
