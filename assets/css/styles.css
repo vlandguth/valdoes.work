@@ -1,6 +1,7 @@
 body {
     font-family: europa, 'Montserrat', sans-serif;
     background-color: #4A4A4A;
+    color:white;
   }
   
   /* Header */
@@ -161,7 +162,7 @@ body {
   
   /* Resume */
   
-  .resume p a{
+  p a{
     color:#A992E5;
   }
   
