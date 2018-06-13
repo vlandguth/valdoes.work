@@ -116,7 +116,6 @@ a{
 
 .resume .right{
   color: whitesmoke;
-  background: #333;
   width:65%;
   padding:30px 25px;
 }
@@ -138,16 +137,7 @@ a{
 }
 
 .side-bar h4:nth-child(2), .descrip p {
-  color:#ABABAB;
-}
-
-@media only screen and (max-width: 600px) {
-  .resume{
-    flex-direction:column;
-  }
-  .left, .right{
-    width:90%;
-  }
+  color:#7F7F7F;
 }
  
   /* welcome bar */
