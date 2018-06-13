@@ -250,7 +250,6 @@ a{
   
   .right{
     color: whitesmoke;
-    background: #333;
     width:65%;
     padding:30px 25px;
   }
@@ -292,16 +291,13 @@ a{
     font-weight:300;
   }
 
-  .about .left img{
-    max-width:80%;
-  }
 
   .about .left{
-    width:35%;
+    width:30%;
   }
 
   .about .right{
-    width:65%;
+    width:70%;
   }
   
   .bio ul{
