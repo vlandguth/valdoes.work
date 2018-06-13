@@ -291,9 +291,9 @@ a{
     font-weight:300;
   }
 
-  .about .left img{
+.about .left img{
   width:250px;
-  }
+}
   
   .bio ul{
     list-style-type:none;
@@ -307,6 +307,10 @@ a{
     .about{
       flex-wrap:wrap;
       justify-content:center;
+    }
+    .right{
+      width: auto;
+      padding: 30px 0px;
     }
   }
 
