@@ -291,13 +291,8 @@ a{
     font-weight:300;
   }
 
-
-  .about .left{
-    width:30%;
-  }
-
-  .about .right{
-    width:70%;
+  .about .right img{
+  width:250px;
   }
   
   .bio ul{
