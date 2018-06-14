@@ -125,9 +125,13 @@ body {
 
   /* Main */
 main.post{
+  display:flex;
+  justify-content: center;
+  align-items: center;
   max-width:1000px;  
 }
-main.post h2{
+
+h2{
   text-align:center;
 }
 a{
