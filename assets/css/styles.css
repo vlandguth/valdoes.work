@@ -65,6 +65,50 @@ body {
   ul, header{
     -webkit-padding-start: 0px;
   }
+
+  @keyframes fadeIn { 
+    from { 
+    right:-100px; 
+    } 
+    to { 
+      right:80px; 
+    } 
+  }
+  
+  .shooting-stars {
+    width: 5px;
+    height: 85px;
+    border-top-left-radius: 50%;
+    border-top-right-radius: 50%;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    background: linear-gradient(to top, rgba(255, 255, 255, 0), white);
+    animation: animShootingStar 6s 4s linear infinite;
+  }
+  
+  @keyframes animShootingStar {
+    from {
+      transform: translateY(0px) translateX(-500px) rotate(35deg);
+      opacity: 1;
+      height: 5px;
+    }
+    to {
+      transform: translateY(-2960px) translateX(1500px) rotate(35deg);
+      opacity: 1;
+      height: 800px;
+    }
+  }
+  
+  .welcome .moon{
+    width:150px;
+    fill:rgba(255, 255, 255, 0.6);
+    position:absolute;
+    right:-150px;
+    bottom: 100px;
+    animation: fadeIn 1s 2s;
+    animation-fill-mode: forwards; 
+  }
   
   /* Footer */
   footer {
