@@ -6,6 +6,8 @@ $(window).scroll(function(){
       $('.sticky-header').removeClass('fixed');
      }
   });
+
+  $('.parallax-window').parallax({imageSrc:'/assets/img/spaced/SPACEDblue_mockup.jpg'});
   
   var words = ['UX Designer', 'Web Designer', 'Graduate! (soon)', 'Front-End Developer', 'UI Designer' ];
   setInterval(function(){
