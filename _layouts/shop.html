@@ -1,9 +1,11 @@
 {% include head.html %}
 {% include header.html %}
+<main class="post"> 
   {{content}}
+</main>
 {% for sale in site.shop %}
   <a href="#">
-        <section class="card">
+        <section class="card" id="sticker">
           <div class="grow">
             <img src="{{ sale.cover-image }}" alt="">
           </div> 
