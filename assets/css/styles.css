@@ -539,3 +539,16 @@ a{
   }
   
 }
+
+.shop .title{
+  display:flex;
+  justify-content: center;
+}
+
+.shop .title h1 {
+  font-size: 2.5em;
+}
+
+.shop .title h2, .shop .title h2{
+  text-align:center;
+}
