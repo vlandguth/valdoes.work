@@ -3,7 +3,7 @@ title: Shop
 date: 2018-06-07 18:32:00 Z
 position: 3
 category: myPage
-layout: default
+layout: shop
 ---
 
 # Coming Soon!

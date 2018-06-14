@@ -80,7 +80,13 @@ body {
   }
 
   /* Main */
-a{
+main.post{
+  max-width:1000px;  
+}
+main.post h2{
+  text-align:center;
+}
+  a{
   color:#A992E5;
 }
 

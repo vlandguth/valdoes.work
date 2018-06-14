@@ -28,4 +28,9 @@ defaults:
     type: portfolio
   values:
     layout: work
+- scope:
+    path: ''
+    type: shop
+  values:
+    layout: sale
 permalink: pretty

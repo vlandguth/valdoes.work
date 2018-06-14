@@ -1,0 +1,14 @@
+{% include head.html %}
+{% include header.html %}
+  {{content}}
+{% for sale in site.shop %}
+  <a href="#">
+        <section class="card">
+          <div class="grow">
+            <img src="{{ sale.cover-image }}" alt="">
+          </div> 
+        </section>
+      </a>
+{% endfor %}
+{% include footer.html %}
+{% include scripts.html %}
