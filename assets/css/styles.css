@@ -388,24 +388,26 @@ a{
     width:500px;
   }
   
-  .carousel-nav-left svg, .carousel-nav-right svg {
-    width:15px;
-    margin:0 20px;
-  }
-  
-  .carousel-item figcaption{
-    color:white;
-    text-align:center;
-    padding:10px;
-  }
-  
-  
   @media only screen and (max-width: 500px) {
       .info {
           flex-direction:column;
       }
-    .carousel-item figure{
-      margin:0 auto;
-      max-width:80%;
   }
+
+  .project .proto .screen{
+    margin-top:-100px;
+    width:600px;
+  }
+  
+  .project .proto iframe{
+    transform:scale(.7)
+  }
+  
+  .project .proto{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    justify-content:center;
+    flex-wrap:nowrap;
+    
   }
