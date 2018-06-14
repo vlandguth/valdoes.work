@@ -1,8 +1,10 @@
 {% include head.html %}
 {% include header.html %}
-<main class="post"> 
-  {{content}}
-</main>
+<main class="shop"> 
+    <div class="title">
+    {{content}}
+    </div>
+
 {% for sale in site.shop %}
   <a href="#">
         <section class="card" id="sticker">
@@ -11,6 +13,7 @@
           </div> 
         </section>
       </a>
+ </main>
 {% endfor %}
 {% include footer.html %}
 {% include scripts.html %}
