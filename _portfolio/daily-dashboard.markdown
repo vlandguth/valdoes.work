@@ -7,6 +7,6 @@ screens-image:
 - "/uploads/Messages.png"
 - "/uploads/DashboardWeather.png"
 - "/uploads/Calendar.png"
-layout: project
+layout: dashboard
 ---
 
