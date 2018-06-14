@@ -422,7 +422,7 @@ a{
   }
 
   .proto img.splash{
-      max-width: 370px;
+    max-width: 370px;
   }
 
   @media only screen and (max-width: 850px) {
@@ -431,6 +431,7 @@ a{
     }
 
     .proto img{
+      margin-top:40px;
       max-width: 50%;
     }
 
