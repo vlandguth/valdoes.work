@@ -542,6 +542,7 @@ a{
 
 .shop .title{
   display:flex;
+  flex-direction: row;
   justify-content: center;
 }
 
