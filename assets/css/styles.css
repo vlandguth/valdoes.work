@@ -1,6 +1,6 @@
 body {
     font-family: europa, 'Montserrat', sans-serif;
-    background-color: #5b5b5b;
+    background-color: #4A4A4A;
   }
 
   main p{
@@ -118,7 +118,7 @@ a{
 }
 
 .side-bar h4:nth-child(2), .descrip p {
-  color:#7F7F7F;
+  color:whitesmoke;
 }
  
   /* welcome bar */
