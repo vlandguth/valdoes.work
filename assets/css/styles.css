@@ -427,7 +427,7 @@ a{
     }
 
     .proto img{
-      max-width: auto;
+      max-width: 50%;
     }
 
 }
