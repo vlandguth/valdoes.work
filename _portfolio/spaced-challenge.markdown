@@ -15,7 +15,5 @@ future-features:
 screens-descrip:
 - Homepage - Web
 - Homepage - App
-layout: project
+layout: spaced
 ---
-
-The SPACED challenge was about designing either a logo, a website, or an app for a fictional space travel company that takes passengers to different destinations in our galaxy in one day, and back to Earth safely. This project was an opportunity for me to grow my UI skills and get feedback from a professional.
