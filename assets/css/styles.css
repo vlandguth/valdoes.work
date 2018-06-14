@@ -421,6 +421,10 @@ a{
     margin-top:100px;
   }
 
+  .proto img.splash{
+      max-width: 370px;
+  }
+
   @media only screen and (max-width: 850px) {
     #game{
       flex-direction:column;
