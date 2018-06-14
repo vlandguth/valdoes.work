@@ -410,5 +410,24 @@ a{
     align-items:center;
     justify-content:center;
     flex-wrap:nowrap;
-    
   }
+
+  #game{
+    flex-direction:row;
+  }
+
+  .proto .splash{
+    max-width:50%;
+    margin-top:100px;
+  }
+
+  @media only screen and (max-width: 500px) {
+    #game{
+      flex-direction:column;
+    }
+
+    .proto img{
+      max-width: auto;
+    }
+
+}
