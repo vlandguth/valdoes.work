@@ -8,3 +8,4 @@ layout: shop
 
 # Coming Soon!
 ## Stickers, Cards, Pins, etc!
+## Items for Sale Soon
