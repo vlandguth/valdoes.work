@@ -6,6 +6,5 @@ category: myPage
 layout: shop
 ---
 
-# Coming Soon!
+## For Sale Soon!
 ## Stickers, Cards, Pins, etc!
-## Items for Sale Soon
