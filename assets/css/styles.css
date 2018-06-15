@@ -129,13 +129,11 @@ div.post{
   justify-content: center;
   align-items: center;  
 }
-main.shop{
-  max-width:1000px;
-}
 
-h2{
+body h2{
   text-align:center;
 }
+
 a{
   color:#A992E5;
 }
@@ -284,7 +282,7 @@ a{
     transform: scale(1.08);
   }
   
-  .work{
+  .work, .shop{
     margin:0 auto;
     max-width:1600px;
     display:flex;
@@ -538,8 +536,4 @@ a{
     flex-wrap:wrap;
   }
   
-}
-
-.title{
-  text-align:center;
 }
