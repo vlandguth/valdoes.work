@@ -46,3 +46,8 @@ $(document).ready(function($) {
   //Fire it when the page first loads:
   alterClass();
 });
+
+$('#gallery').lightGallery({
+  mode: 'lg-fade',
+  share: false
+});
