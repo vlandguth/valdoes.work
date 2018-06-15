@@ -5,7 +5,6 @@ cover-image: "/uploads/IMG_7934.jpg"
 gallery-image:
 - "/uploads/IMG_8161.jpg"
 - "/uploads/IMG_0456.jpg"
-- "/uploads/IMG_7919.JPG"
 - "/uploads/8.jpg"
 - "/uploads/IMG_7934-3ebbc6.jpg"
 - "/uploads/IMG_8003.jpg"
@@ -13,7 +12,6 @@ gallery-image:
 - "/uploads/IMG_7925-506ec7.jpg"
 link-image:
 - "/uploads/1.jpg"
-- "/uploads/2.jpg"
 - "/uploads/8.jpg"
 - "/uploads/4.jpg"
 - "/uploads/5.jpg"
