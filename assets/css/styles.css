@@ -176,7 +176,13 @@ a{
 @media only screen and (max-width: 800px) {
  main.resume .right {
     width: 100%;
+    font-size: 11px;
  }
+
+ .descrip p{
+   padding:0;
+ }
+}
 
 
 .side-bar h4:nth-child(2), .descrip p {
