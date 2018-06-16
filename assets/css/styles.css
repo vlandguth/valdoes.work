@@ -174,11 +174,10 @@ a{
 }
 
 @media only screen and (max-width: 1000px) {
- .resume .right{
+ main.resume .right{
   width: 90%;
  }
 }
-
 
 .side-bar h4:nth-child(2), .descrip p {
   color:whitesmoke;
