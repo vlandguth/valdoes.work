@@ -522,9 +522,11 @@ a{
     max-width: 370px;
   }
 
-  .proto a.button, .is-dark{
+  .proto a.button, .button.is-dark{
     margin-top:30px;
     background: #7462A0;
+    width:200px;
+    margin:0 auto;
   }
 
   @media only screen and (max-width: 850px) {
