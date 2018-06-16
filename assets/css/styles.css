@@ -158,7 +158,7 @@ a{
 }
 
 .resume .right article{
-  margin:10px 0;
+  margin:10px;
 }
 
 .list-item div{
@@ -173,11 +173,11 @@ a{
   width:30%;
 }
 
-@media only screen and (max-width: 1000px) {
+@media only screen and (max-width: 800px) {
  main.resume .right {
-    width: 90%;
+    width: 100%;
  }
-}
+
 
 .side-bar h4:nth-child(2), .descrip p {
   color:whitesmoke;
