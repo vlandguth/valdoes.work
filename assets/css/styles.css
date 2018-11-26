@@ -15,8 +15,8 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 130px;
-    background-color: #333;
+    height: 110px;
+    background-color: black;
     padding: 10px;
     z-index: 1000;
   }
@@ -50,7 +50,7 @@ body {
     text-decoration: none;
     padding: 20px;
     border-radius: 15%;
-    color:#4A4a4A;
+    color:whitesmoke;
     transition: all .3s ease-in-out;
   }
   
@@ -184,9 +184,13 @@ a{
  }
 }
 
+.side-bar h4{
+  color:#333;
+}
+
 
 .side-bar h4:nth-child(2), .descrip p {
-  color:whitesmoke;
+  color:#4A4a4A;
 }
  
   /* welcome bar */
@@ -306,7 +310,7 @@ a{
   
   .card{
     margin:10px 20px;
-    background: rgb(51, 51, 51);
+    background:whitesmoke;
     width:400px;
     height:350px;
   }
@@ -315,7 +319,7 @@ a{
     font-family: europa, 'Montserrat', sans-serif;
     font-weight:250;
     letter-spacing:1px;
-    color:white;
+    color:#333;
     text-align:center;
     margin-top:15px;
   }
