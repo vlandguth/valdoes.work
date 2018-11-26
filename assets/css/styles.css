@@ -184,7 +184,7 @@ a{
  }
 }
 
-.side-bar h4{
+.side-bar h4, .descrip h4{
   color:#333;
 }
 
@@ -368,7 +368,7 @@ a{
   }
   
   .side-bar h4:nth-child(2), .descrip p {
-    color:#ABABAB;
+    color:rgb(73, 73, 73);
   }
 
   .posts{
