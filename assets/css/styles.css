@@ -1,10 +1,10 @@
 body {
     font-family: europa, 'Montserrat', sans-serif;
-    background-color: #4A4A4A;
+    background-color:white;
   }
 
   main p{
-    color:white;
+    color:#4A4a4A;
     max-width:900px;
     padding:0 20px;
     margin: 0 auto;
@@ -50,7 +50,7 @@ body {
     text-decoration: none;
     padding: 20px;
     border-radius: 15%;
-    color: whitesmoke;
+    color:#4A4a4A;
     transition: all .3s ease-in-out;
   }
   
@@ -135,14 +135,14 @@ body h2{
 }
 
 a{
-  color:#A992E5;
+  color:#7462A0;
 }
 
 .resume h1, .resume h2, .post h2, body h2{
   text-align: center;
   font-size: 28px;
   font-family: europa-bold, sans-serif;
-  color:#A992E5;
+  color:#7462A0;
   text-transform:uppercase;
 }
 
@@ -228,7 +228,7 @@ a{
     margin: 50px 0 30px;
     font-size: 3.5em;
     font-family: europa, 'Montserrat', sans-serif;
-    color:whitesmoke;
+    color:#4A4a4A;
     text-align:center;
     font-weight:300;
   }
@@ -383,7 +383,7 @@ a{
   }
 
   .about h1, .about h2, .about p, .bio li{
-    color:whitesmoke;
+    color:#4A4a4A;
     font-family: 'Montserrat', sans-serif;;
     font-weight:300;
   }
@@ -433,7 +433,7 @@ a{
   .hero p{
     font-size: 1.1em;
     margin:0 auto;
-    color:white;
+    color:#333;
     text-align:center;
     padding:20px 20px 100px;;
     max-width:550px;
