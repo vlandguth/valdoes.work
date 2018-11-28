@@ -10,3 +10,4 @@ screens-image:
 layout: dashboard
 ---
 
+A Daily Dashboard app built to optimize your morning by collecting all of your everyday notifications in one place.
