@@ -350,7 +350,7 @@ a{
   }
   
   .right{
-    color: whitesmoke;
+    color: #333;
     width:65%;
     padding:30px 25px;
   }
@@ -473,7 +473,7 @@ a{
   
   .project .info{
     max-width:1200px;
-    color:white;
+    color:#4A4A4A;
     display: flex;
     justify-content:center;
     align-items:baseline;
