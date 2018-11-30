@@ -6,7 +6,6 @@ body {
   main p{
     color:#4A4a4A;
     max-width:900px;
-    padding:0 20px;
     margin: 0 auto;
   }
   
@@ -207,7 +206,7 @@ a{
     margin: 0;
     font-size: 2.5em;
     text-align:center;
-    padding-top:180px;
+    padding-top:100px;
     color:#fff;
     text-transform:none;
   }
@@ -337,6 +336,7 @@ a{
   .resume, .skills, .list-item{
     display:flex;
     justify-content:center;
+    max-width:1000px;
   }
   
   .contact, .findme{
