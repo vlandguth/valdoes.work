@@ -16,7 +16,6 @@ link-image:
 - "/uploads/4.jpg"
 - "/uploads/5.jpg"
 - "/uploads/3.jpg"
-- 
 layout: gallery
 ---
 
