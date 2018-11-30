@@ -157,7 +157,11 @@ a{
   padding:30px 25px;
 }
 
-.resume .right article{
+.resume{
+  margin:0 auto;
+}
+
+.right article{
   margin:10px;
 }
 
