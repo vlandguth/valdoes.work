@@ -199,13 +199,13 @@ a{
     overflow:hidden;
     position:relative;
     width:100vw;
-    height:450px;
+    height:350px;
     background:#7462A0;
   }
   
   .welcome h1{
     margin: 0;
-    font-size: 3.5em;
+    font-size: 2.5em;
     text-align:center;
     padding-top:180px;
     color:#fff;
@@ -310,7 +310,7 @@ a{
   
   .card{
     margin:10px 20px;
-    background:whitesmoke;
+    background:black;
     width:400px;
     height:350px;
   }
@@ -319,7 +319,7 @@ a{
     font-family: europa, 'Montserrat', sans-serif;
     font-weight:250;
     letter-spacing:1px;
-    color:#333;
+    color:whitesmoke;
     text-align:center;
     margin-top:15px;
   }
