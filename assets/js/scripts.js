@@ -9,7 +9,7 @@ $(window).scroll(function(){
 
   $('.parallax-window').parallax({imageSrc:'/assets/img/spaced/SPACEDblue_mockup.jpg'});
   
-  var words = ['UX Designer', 'Web Designer', 'Graduate! (soon)', 'Front-End Developer', 'UI Designer', 'Star!' ];
+  var words = ['UX Designer', 'Web Designer', 'Graduate!', 'Front-End Developer', 'UI Designer', 'Star!', 'Creative Problem Solver'];
   setInterval(function(){
   var randomIndex = Math.floor(Math.random() * words.length); 
   var randomElement = words[randomIndex];
