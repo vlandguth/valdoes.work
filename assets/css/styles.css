@@ -3,6 +3,11 @@ body {
     background-color:white;
   }
 
+  main{
+    max-width:1200px;
+    margin:30px auto;
+  }
+
   main p{
     color:#4A4a4A;
     max-width:900px;
@@ -567,7 +572,7 @@ section{
 .overview{
   display:flex;
   align-items:center;
-  justify-content:space-between;
+  justify-content:center;
 }
 
 .overview div{
