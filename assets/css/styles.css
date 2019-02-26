@@ -464,12 +464,12 @@ a{
     padding:0 10px;
   }
 
-  .project h4{
+  .overview h4{
     text-transform:uppercase;
     padding:10px 0;
     font-size: 1.15em;
   }
-  .project h3{
+  .overview h3{
     font-size: 2em;
     padding:10px 0;
   }
