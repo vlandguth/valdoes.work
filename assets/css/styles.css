@@ -577,7 +577,14 @@ section{
 
 .overview div{
   margin:10px;
+  padding:0 10px;
   max-width:500px;
+}
+
+h2{
+  text-align: center;
+  font-size: 1.5em;
+  color:#7462A0;
 }
 
 .invision{
