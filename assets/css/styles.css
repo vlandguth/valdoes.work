@@ -138,10 +138,6 @@ a{
   color:#7462A0;
 }
 
-.remix, .visual{
-  display:flex;
-  
-}
 
 .resume h1, .resume h2, .post h2, body h2{
   text-align: center;
@@ -201,7 +197,6 @@ a{
 }
  
   /* welcome bar */
-  
   .welcome{
     overflow:hidden;
     position:relative;
@@ -566,8 +561,22 @@ a{
   
 }
 
-#gallery {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+section{
+  margin-bottom:150px;
+}
+
+.overview{
+  display:flex;
+  align-items:center;
+  justify-content:space-around;
+}
+
+.overview div{
+  margin:10px;
+  max-width:500px;
+}
+
+.invision{
+  display:flex;
+  justify-content:center;
 }
