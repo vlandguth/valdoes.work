@@ -474,7 +474,6 @@ a{
   .overview h3{
     margin: 10px 0;
     font-family: europa-bold, sans-serif;
-    color:#7462A0;
     text-transform:uppercase;
   }
   
@@ -581,8 +580,7 @@ section{
   max-width:500px;
 }
 
-h2{
-  text-align: center;
+body main h2{
   font-size: 1.5em;
   color:#7462A0;
 }

@@ -1,48 +1,42 @@
 {% include head.html %}
 {% include header.html %}
   
-<div class="parallax-window" data-parallax="scroll" data-image-src="/assets/img/spaced/SPACEDblue_mockup.jpg"></div>
-  <h1>{{ page.title }}</h1>
-</div>
-  
-  <main class="project">
-    <div class="info">
-      <div class="descrip">
-        <h3>Overview</h3>
-        <p>{{ content }}</p>
-      </div>
-  
+<main>
+    <h1>{{ page.title }}</h1>
+    <section class="overview">
+      <div><img src="/assets/img/rave/rave-mockup.png" alt=""></div>
       <div>
-        <h4>UX Concepts</h4>
+        <h2>Overview</h2>
+        <p>My project functioned as a flashing distorted mirror that people would dance in front of to the rave music. The project used people’s sight and the feedback that they got from my project was to see themselves “raving” in a more exciting and atmospheric way.</p>
+        <h3>Project Timeline</h3>
+        <ul>
+          <li>May - June 2018</li>
+        </ul>
+        <h3>UX Methods</h3>
         <ul>
           <li>Web Design</li>
           <li>Interaction Design</li>
         </ul>
-      </div>
-
-      <div>
-            <h4>UX Tools</h4>
-            <ul>
-              <li>p5.js</li>
-              <li>Javascript</li>
-            </ul>
-          </div>
-  
-      <div>
-        <h4>Status</h4>
+        <h3>UX Tools</h3>
         <ul>
-          <li>Complete</li>
+          <li>p5.js</li>
+          <li>Javascript</li>
+        </ul>
+        <h3>Status</h3>
+        <ul>
+          <li>Version 1 Complete</li>
         </ul>
       </div>
-    </div>
-
-    <div class="proto">
-            <a href="https://drive.google.com/file/d/1NxhFjpdsoJlJtDcZcOHc_XvBuKwHit-d/view?usp=sharing">My Project In Action</a>
-            <img src="/assets/img/rave/rave-mockup.png" alt="Rave">
-            <a href="https://vlandguth.github.io/p5Rave/" target="_blank" class="button is-dark">View UX Rave Project</a>
-</div>
+    </section>
+    
+    <section class="overview">
+      <div><img src="/assets/img/rave/interactionpics.png" alt="Rave Interaction"></div>
+      <div>
+        <h2>Interaction</h2>
+        <p>The digital component of my project is a pixelated dot image that randomly changes dot color. It “pointilizes” the image that is taken in from the web cam. The physical component is the web cam part of the digital component. During the Rave the web cam was pointed at the door so that each guest that came into the room was immediately greeted with a giant screen that showed their image with dots.</p>
+      </div>
+    </section>
 </main>
-
 
 {% include footer.html %}
 {% include scripts.html %}
