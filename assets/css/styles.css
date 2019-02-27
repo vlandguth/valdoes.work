@@ -580,6 +580,10 @@ section{
   max-width:700px;
 }
 
+.overview p{
+  padding-bottom:10px;
+}
+
 body main h2{
   font-size: 1.5em;
   color:#7462A0;
