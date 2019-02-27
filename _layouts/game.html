@@ -1,52 +1,46 @@
 {% include head.html %}
 {% include header.html %}
 
-  
-<div class="parallax-window" data-parallax="scroll" data-image-src="/assets/img/spaced/SPACEDblue_mockup.jpg"></div>
-  <h1>{{ page.title }}</h1>
-</div>
-  
-<main class="project" id="game">
-    <div class="info">
-        <div class="descrip">
-            <h3>Overview</h3>
-            <p>{{ content }}</p>
-        </div>
 
+<main>
+    <h1>{{ page.title }}</h1>
+    <section class="overview">
+      <div><img src="/assets/img/game/SPLASHmockup.png" alt=""></div>
       <div>
-            <h4>UX Concepts</h4>
-            <ul>
-              <li>Interaction Design</li>
-              <li>User Research</li>
-              <li>Usability Testing</li>
-            </ul>
-          </div>
+        <h2>Overview</h2>
+        <p>Splash is a kids game with digital component. The purpose of this project was to practice research techniques both before and after prototyping.  SPLASH is a game made for kids between the ages of 6-12 years old. The game can be played with or without the app. This project provided a lot of insight into the importance of usability testing on the target market. </p>
+        <h3>UX Concepts</h3>
+        <ul>
+          <li>Interaction Design</li>
+          <li>User Research</li>
+          <li>Usability Testing</li>
+        </ul>
+        <h3>UX Tools</h3>
+        <ul>
+          <li>Sketch</li>
+          <li>InVision</li>
+        </ul>
+        <h3>Status</h3>
+        <ul>
+          <li>App In Development (React.js)</li>
+        </ul>
+      </div>
+    </section>
     
-          <div>
-            <h4>UX Tools</h4>
-            <ul>
-              <li>Sketch</li>
-              <li>InVision</li>
-              <li>React.js</li>
-            </ul>
-          </div>
-      
-          <div>
-            <h4>Status</h4>
-            <ul>
-              <li>Prototype</li>
-              <li>App in Development</li>
-            </ul>
-          </div>
-          </div>
-
-          <div class="proto" id="game">
-                <img class="screen splash" src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/1183167/game%20copy.png" alt="SPACED Web Home Page">
-                <iframe class="splash" width="442" height="935" src="//invis.io/8AKWYNIB72K" frameborder="0" allowfullscreen></iframe>
-          </div>
-</div>
-</main>
-
+    <h2>InVision Prototype</h2>
+    <section class="invision">
+        <iframe width="442" height="935" src="//invis.io/JUKWXTCDN2Z" frameborder="0" allowfullscreen></iframe>
+      </section>
+    
+    <section class="overview">
+      <div><img src="/assets/img/game/game.png" alt="UX Game - SPLASH"></div>
+      <div>
+        <h2>Additional Research</h2>
+        <p>Other games I have seen in stores a lot are “coding” games where the you have to plan the movement of a character with separate movement grouped together. For example, Coding Board Game: On The Brink where you maneuver a robot though a path. Another game that is popular is Connect Four which has been popular for a really long time, a classic strategy game.</p>
+        <p>Games that require some thinking and planning seem to be popular as well as games that are associated with popular TV shows or movies.</p>
+      </div>
+    </section>
+    </main>
 
 {% include footer.html %}
 {% include scripts.html %}
