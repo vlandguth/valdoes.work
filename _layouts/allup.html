@@ -1,47 +1,52 @@
 {% include head.html %}
 {% include header.html %}
   
-  <h1>{{ page.title }}</h1>
-  
-  <main class="project">
-    <div class="info">
-      <div class="descrip">
-        <h3>Overview</h3>
-        <p>{{ content }}</p>
-      </div>
-  
+<main>
+    <h1>{{ page.title }}</h1>
+    <section class="overview">
+      <div><img src="/assets/img/allup/allup-mockup.png" alt=""></div>
       <div>
-        <h4>UX Methods</h4>
+        <h2>Overview</h2>
+        <p>All Up Consulting is a company that strives to help people develop the skills and knowledge necessary to advance in their software development. The target audience for this website is two groups of people in the software industry. New graduates that are looking to nail an interview and land their dream job and industry professionals that want to advance their career and find their passion for software development again.</p>
+        <h3>Project Timeline</h3>
+        <ul>
+          <li>September - November 2018</li>
+        </ul>
+        <h3>UX Methods</h3>
         <ul>
           <li>Branding</li>
-          <li>Responsive</li>
+          <li>Responsive Design</li>
+        </ul>
+        <h3>UX Tools</h3>
+        <ul>
           <li>Sketch</li>
           <li>HTML5</li>
-          <li>Bulma</li>
+          <li>CSS Frameworks</li>
         </ul>
-      </div>
-  
-      <div>
-        <h4>Status</h4>
+        <h3>Status</h3>
         <ul>
-          <li>Live</li>
+          <li>Published</li>
         </ul>
       </div>
-  
+    </section>
+    
+    <section class="overview">
+      <div><img src="/assets/img/allup/allup-logo-07.png" alt="All Up Consulting Logo"></div>
       <div>
-        <h4>Future Features</h4>
-        <ul>
-          <li>Expansion on Current Website</li>
-        </ul>
+        <h2>Branding</h2>
+        <p>I created the brand for All Up Consulting with the words professional, technology, and modern in mind. I chose the angular look to mimic brackets that are used for coding in many different languages. The typeface Tajawal also has angles, especially in the L’s used in the word all. The logo only uses two shades of blue to stay simplistic and professional. </p>
+        <p>All Up Consulting is a branch of the main company All Up, so it was important to the client that the “All Up” part of the logo stay the same and the second line part could be changed to fit each branch of the company.</p>
       </div>
-    </div>
-
-    <div class="proto">
-        <a href="https://www.allupconsulting.com/" target="_blank" class="button is-dark">View Live Website</a>
-
-</div>
-</main>
-
+    </section>
+    <section class="overview">
+        <div><img src="/assets/img/allup/allupwebsite.png" alt="All Up Consulting Website"></div>
+        <div>
+          <h2>Website</h2>
+          <p>The website for All Up Consulting is intended to give an overview of the company, allow the potential customers to get to know the employees, and link directly to the page for scheduling a consultation.</p>
+          <p>The website uses the same colors and fonts from the logo to maintain All Up Consulting’s brand recognition.</p>
+        </div>
+      </section>
+    </main>
 
 {% include footer.html %}
 {% include scripts.html %}
