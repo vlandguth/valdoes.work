@@ -577,7 +577,7 @@ section{
 .overview div{
   margin:10px;
   padding:0 10px;
-  max-width:500px;
+  max-width:700px;
 }
 
 body main h2{
@@ -588,4 +588,16 @@ body main h2{
 .invision{
   display:flex;
   justify-content:center;
+}
+
+@media only screen and (max-width: 850px){
+  .overview, .invision{
+    flex-direction:column;
+    margin:0 auto;
+  }
+  
+  .invision{
+    transform: scale(.5);
+    margin-left:-100px
+  }
 }
