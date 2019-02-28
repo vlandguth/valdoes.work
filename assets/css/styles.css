@@ -537,8 +537,8 @@ a{
     max-width: 370px;
   }
 
-  .proto a.button, a.button.is-dark{
-    margin-top:30px;
+  a.button.is-dark{
+    margin:20px 0;
     background: #7462A0;
     width:200px;
     margin:0 auto;

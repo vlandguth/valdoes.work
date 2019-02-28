@@ -1,46 +1,48 @@
 {% include head.html %}
 {% include header.html %}
   
-<div class="parallax-window" data-parallax="scroll" data-image-src="/assets/img/spaced/SPACEDblue_mockup.jpg"></div>
+<main>
   <h1>{{ page.title }}</h1>
-</div>
-  
-  <main class="project">
-    <div class="info">
-      <div class="descrip">
-        <h3>Overview</h3>
-        <p>{{ content }}</p>
-      </div>
-  
-      <div>
-        <h4>UX Concepts</h4>
-        <ul>
-          <li>Nested Sketch Symbols</li>
-          <li>UI Design</li>
-          <li>User Flows</li>
-        </ul>
-      </div>
-  
-      <div>
-        <h4>Status</h4>
-        <ul>
-          <li>In Development</li>
-        </ul>
-      </div>
-  
-      <div>
-        <h4>Future Features</h4>
-        <ul>
-          <li>Dark Mode!</li>
-        </ul>
-      </div>
+  <section class="overview">
+    <div><img src="/assets/img/magpie/magpie-mockup(big).jpg" alt=""></div>
+    <div>
+      <h2>Overview</h2>
+      <p>Magpie is a hunt app created with the intention to get more people to tour the Spokane Sculpture Walk, as a collaboration between EWU and Spokane Arts. The idea of using an entertaining way to obtain information and locate landmarks drove the Magpie concept. My part in this project was to redesign the user flows and optimize the Sketch file with nested symbols.</p>
+      <h3>Project Timeline</h3>
+      <ul>
+        <li>April - September 2018</li>
+      </ul>
+      <h3>UX Methods</h3>
+      <ul>
+        <li>Advance Sketch Techniques</li>
+        <li>UI Design</li>
+        <li>Prototyping</li>
+      </ul>
+      <h3>UX Tools</h3>
+      <ul>
+        <li>Sketch</li>
+        <li>InVision</li>
+      </ul>
+      <h3>Status</h3>
+      <ul>
+        <li>In Development</li>
+      </ul>
+      <a href="https://invis.io/SNN3C7IWAKB" target="_blank" class="button is-dark">View InVision Project</a>
     </div>
-
-    <div class="proto">
-        <iframe width="476" height="1000" src="//invis.io/H6FFSF3G4P8" frameborder="0" allowfullscreen></iframe>
-
-</div>
-</main>
+  </section>
+  
+  <h2 class="centered">InVision Prototype</h2>
+  <section class="invision">
+    <iframe width="476" height="1000" src="//invis.io/W3N3C7JHVMB" frameborder="0" allowfullscreen></iframe>
+  
+  <section class="overview">
+    <div><img src="/assets/img/magpie/svgprocess.png" alt="Magpie SVG Optimization Process"></div>
+    <div>
+      <h2 class="centered">SVG Optimization</h2>
+      <p>Magpie has the a Platinum Plan that allows customizable Super Badge design so the current badges needed to be easily editable and fast loading. I took them from flat PNGs to fast loading and versatile SVGS. </p>
+    </div>
+  </section>
+  </main>
 
 
 {% include footer.html %}
